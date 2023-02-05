@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import {Character} from "../../src/interfaces/Character";
 import {render} from "@testing-library/react";
 import CharacterCard from "../../src/components/characterCard";
