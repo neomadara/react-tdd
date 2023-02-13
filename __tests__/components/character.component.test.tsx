@@ -87,7 +87,7 @@ describe('Character component', () => {
 
     // assert
     expect(getByTestId('character-name')).toBeDefined()
-    expect(getByTestId('character-name')).toHaveTextContent('Rick Sanchez')
+    expect(getByTestId('character-name')).toHaveTextContent(mockCharacter.name)
     expect(getByTestId('character-image')).toBeDefined()
     expect(getByTestId('character-specie')).toBeDefined()
   })

@@ -6,10 +6,11 @@ interface Props {
 }
 
 const CharacterCard: FC<Props> = ({ data }) => {
-  console.log(data);
   return (
     <div>
       <span data-testid={'character-name'}>{data.name}</span>
+      <span data-testid={'character-image'}>{data.image}</span>
+      <span data-testid={'character-specie'}>{data.species}</span>
     </div>
   )
 
