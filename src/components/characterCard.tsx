@@ -9,7 +9,7 @@ const CharacterCard: FC<Props> = ({ data }) => {
   console.log(data);
   return (
     <div>
-      hola
+      <span data-testid={'character-name'}>{data.name}</span>
     </div>
   )
 
